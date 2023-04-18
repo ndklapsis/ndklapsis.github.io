@@ -46,7 +46,7 @@ body {font-family: "Lato", sans-serif}
         <p style="font-size: 2vw">Astronautical Engineering student at the University of Southern California</p>    
     </div>
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>USCRPL Fireball Launch sunset</h3>  
+      <h3>USCRPL Fireball Launch</h3>  
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
@@ -66,15 +66,18 @@ body {font-family: "Lato", sans-serif}
         <p style="font-size: 2vw">Astronautical Engineering student at the University of Southern California</p>    
     </div>
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Sunset over launch rail</h3>   
+      <h3>Sunset at Spaceport America</h3>   
     </div>
   </div>
 
   <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">Nikitas Klapsis</h2>
-    <p class="w3-opacity"><i>Student at the University of Southern California</i></p>
-    <p class="w3-justify">Intro (TODO)</p>
+  <!-- This section displays a pdf of my resume-->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="resume">
+    <h2 class="w3-wide">RESUME</h2>
+    <p class="w3-opacity"><i>Click on the image to download my resume</i></p><br>
+    <a href="/Photos/Resume.pdf" download>
+        <img src="/Photos/resume.png" alt="Resume" style="width:100%">
+    </a>    
   </div>
 
   <!-- The Contact Section -->
@@ -107,7 +110,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 7000);    
+  setTimeout(carousel, 6000);    
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
